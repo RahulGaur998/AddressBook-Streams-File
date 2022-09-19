@@ -129,3 +129,31 @@
 2022-09-19 18:03:49.074 [main] INFO  com.addressbook.App - Give choice 1. Create a contact: 2: Display Contacts 3: Edit a Contact
 2022-09-19 18:18:54.440 [main] INFO  com.addressbook.App - Welcome to Address Book Program
 2022-09-19 18:18:54.445 [main] INFO  com.addressbook.App - Give choice 1. Create a contact: 2: Display Contacts
+2022-09-19 18:53:09.117 [main] INFO  com.addressbook.App - Welcome to Address Book Program
+2022-09-19 18:53:09.117 [main] INFO  com.addressbook.App - Give choice 1. Create a contact: 2: Display Contacts 3: Edit a Contact 4: Delete a contact 5: Add Multiple contacts
+2022-09-19 18:53:10.971 [main] INFO  com.addressbook.App - Enter first name :
+2022-09-19 18:53:13.621 [main] INFO  com.addressbook.App - Enter last name :
+2022-09-19 18:53:14.900 [main] INFO  com.addressbook.App - Enter address :
+2022-09-19 18:53:15.430 [main] INFO  com.addressbook.App - Enter city :
+2022-09-19 18:53:15.768 [main] INFO  com.addressbook.App - Enter state :
+2022-09-19 18:53:16.142 [main] INFO  com.addressbook.App - Enter zip code :
+2022-09-19 18:53:16.675 [main] INFO  com.addressbook.App - Enter phone number :
+2022-09-19 18:53:18.262 [main] INFO  com.addressbook.App - Enter   email Id :
+2022-09-19 18:53:19.333 [main] INFO  com.addressbook.App - Add More yes/no?
+2022-09-19 18:53:21.874 [main] INFO  com.addressbook.App - Enter first name :
+2022-09-19 18:53:23.393 [main] INFO  com.addressbook.App - Enter last name :
+2022-09-19 18:53:23.756 [main] INFO  com.addressbook.App - Enter address :
+2022-09-19 18:53:24.058 [main] INFO  com.addressbook.App - Enter city :
+2022-09-19 18:53:24.269 [main] INFO  com.addressbook.App - Enter state :
+2022-09-19 18:53:24.487 [main] INFO  com.addressbook.App - Enter zip code :
+2022-09-19 18:53:25.660 [main] INFO  com.addressbook.App - Enter phone number :
+2022-09-19 18:53:26.677 [main] INFO  com.addressbook.App - Enter   email Id :
+2022-09-19 18:53:27.758 [main] INFO  com.addressbook.App - Add More yes/no?
+2022-09-19 18:53:29.270 [main] INFO  com.addressbook.App - Welcome to Address Book Program
+2022-09-19 18:53:29.271 [main] INFO  com.addressbook.App - Give choice 1. Create a contact: 2: Display Contacts 3: Edit a Contact 4: Delete a contact 5: Add Multiple contacts
+2022-09-19 18:53:33.005 [main] INFO  com.addressbook.App - [Contact [address=sad, city=sa, emailId=asd, firstName=rahul, lastName=gaur, phoneNumber=sadas, state=dasd, zip=], Contact [address=asd, city=asd, emailId=asd, firstName=sad, lastName=sad, phoneNumber=asd, state=as, zip=dasd]]
+2022-09-19 18:53:33.012 [main] INFO  com.addressbook.App - Welcome to Address Book Program
+2022-09-19 18:53:33.015 [main] INFO  com.addressbook.App - Give choice 1. Create a contact: 2: Display Contacts 3: Edit a Contact 4: Delete a contact 5: Add Multiple contacts
+2022-09-19 18:53:38.033 [main] INFO  com.addressbook.App - [Contact [address=sad, city=sa, emailId=asd, firstName=rahul, lastName=gaur, phoneNumber=sadas, state=dasd, zip=], Contact [address=asd, city=asd, emailId=asd, firstName=sad, lastName=sad, phoneNumber=asd, state=as, zip=dasd]]
+2022-09-19 18:53:38.034 [main] INFO  com.addressbook.App - Welcome to Address Book Program
+2022-09-19 18:53:38.034 [main] INFO  com.addressbook.App - Give choice 1. Create a contact: 2: Display Contacts 3: Edit a Contact 4: Delete a contact 5: Add Multiple contacts
