@@ -217,6 +217,22 @@ class AddressBook {
 
     }
 
+    void deleteContact(Scanner s) {
+        logger.info("Enter first name of Contact to delete : ");
+        String search = s.nextLine();
+        Contact matchedContact = null;
+        for (int i = 0; i < arrli.size(); i++) {
+            Contact contact = arrli.get(i);
+            String currentName = contact.getFirstName();
+            if (currentName.equals(search)) {
+                matchedContact = contact;
+                break;
+            }
+        }
+        arrli.remove(matchedContact);
+        displayContact();
+    }
+
 }
 
 public class App {
@@ -228,7 +244,7 @@ public class App {
         while (true) {
             Scanner s = new Scanner(System.in);
             logger.info("Welcome to Address Book Program");
-            logger.info("Give choice 1. Create a contact: 2: Display Contacts 3: Edit a Contact");
+            logger.info("Give choice 1. Create a contact: 2: Display Contacts 3: Edit a Contact 4: Delete a contact");
             String str = s.nextLine(); // get the number as a single line
 
             int choice = Integer.parseInt(str);
@@ -242,6 +258,9 @@ public class App {
                     break;
                 case 3:
                     a.editContact(s);
+                    break;
+                case 4:
+                    a.deleteContact(s);
                     break;
             }
         }

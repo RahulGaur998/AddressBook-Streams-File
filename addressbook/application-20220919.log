@@ -127,3 +127,5 @@
 2022-09-19 18:03:49.073 [main] INFO  com.addressbook.App - Updated Contact: Contact [address=asd, city=sad, emailId=sad, firstName=mukta, lastName=sad, phoneNumber=ad, state=, zip=sd]
 2022-09-19 18:03:49.073 [main] INFO  com.addressbook.App - Welcome to Address Book Program
 2022-09-19 18:03:49.074 [main] INFO  com.addressbook.App - Give choice 1. Create a contact: 2: Display Contacts 3: Edit a Contact
+2022-09-19 18:18:54.440 [main] INFO  com.addressbook.App - Welcome to Address Book Program
+2022-09-19 18:18:54.445 [main] INFO  com.addressbook.App - Give choice 1. Create a contact: 2: Display Contacts
