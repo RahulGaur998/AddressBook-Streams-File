@@ -233,6 +233,14 @@ class AddressBook {
         displayContact();
     }
 
+    void addMultipleContacts(Scanner s){
+        String input="yes";
+        while(input.equalsIgnoreCase("yes")){
+            addContact(s);
+            logger.info("Add More yes/no?");
+            input=s.nextLine();
+        }
+    }
 }
 
 public class App {
@@ -244,7 +252,7 @@ public class App {
         while (true) {
             Scanner s = new Scanner(System.in);
             logger.info("Welcome to Address Book Program");
-            logger.info("Give choice 1. Create a contact: 2: Display Contacts 3: Edit a Contact 4: Delete a contact");
+            logger.info("Give choice 1. Create a contact: 2: Display Contacts 3: Edit a Contact 4: Delete a contact 5: Add Multiple contacts");
             String str = s.nextLine(); // get the number as a single line
 
             int choice = Integer.parseInt(str);
@@ -262,6 +270,8 @@ public class App {
                 case 4:
                     a.deleteContact(s);
                     break;
+                case 5:
+                    a.addMultipleContacts(s);
             }
         }
     }
