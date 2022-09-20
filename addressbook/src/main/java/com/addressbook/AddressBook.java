@@ -135,4 +135,34 @@ public class AddressBook {
             input = s.nextLine();
         }
     }
+
+    void accessAddressBook(AddressBook a, Scanner s) {
+        while (true) {
+            logger.info("Welcome to Address Book Program");
+            logger.info(
+                    "Give choice 1. Create a contact: 2: Display Contacts 3: Edit a Contact 4: Delete a contact 5: Add Multiple contacts 6: Go back");
+            String str = s.nextLine(); // get the number as a single line
+
+            int choice = Integer.parseInt(str);
+
+            switch (choice) {
+                case 1:
+                    a.addContact(s);
+                    break;
+                case 2:
+                    a.displayContact();
+                    break;
+                case 3:
+                    a.editContact(s);
+                    break;
+                case 4:
+                    a.deleteContact(s);
+                    break;
+                case 5:
+                    a.addMultipleContacts(s);
+                case 6:
+                    return;
+            }
+        }
+    }
 }
