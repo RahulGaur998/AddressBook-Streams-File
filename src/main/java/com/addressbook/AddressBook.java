@@ -172,11 +172,20 @@ public class AddressBook {
         // arrli.forEach(System.out::println);
     }
 
+    void sortByCity() {
+        System.out.println("printing the sorted address book by city");
+        arrli.stream()
+                .sorted(Comparator.comparing(Contact::getCity))
+                .collect(Collectors.toList())
+                .forEach(System.out::println);
+        // arrli.forEach(System.out::println);
+    }
+
     void accessAddressBook(AddressBook a, Scanner s) {
         while (true) {
             logger.info("Welcome to Address Book Program");
             logger.info(
-                    "Give choice 1. Create a contact: 2: Display Contacts 3: Edit a Contact 4: Delete a contact 5: Add Multiple contacts 6: Search by city/state 7: Go back");
+                    "Give choice 1. Create a contact: 2: Display Contacts 3: Edit a Contact 4: Delete a contact 5: Add Multiple contacts 6: Search by city/state 7: Count of searched element 8: Sort By Name 9: Sort By City/State 10: Go back");
             String str = s.nextLine(); // get the number as a single line
 
             int choice = Integer.parseInt(str);
@@ -205,6 +214,11 @@ public class AddressBook {
                     break;
                 case 8:
                     a.sortByName();
+                    break;
+                case 9:
+                    a.sortByCity();
+                    break;
+                case 10:
                     return;
             }
         }
