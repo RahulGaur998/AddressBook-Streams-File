@@ -2,6 +2,7 @@ package com.addressbook;
 
 import java.util.ArrayList;
 import java.util.Scanner;
+import java.util.stream.Stream;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
@@ -37,7 +38,7 @@ public class AddressBook {
             arrli.add(new Contact(firstName, lastName, address, city, state, zip, phoneNumber, emailId));
         }
     }
-    
+
     void displayContact() {
         logger.info(arrli);
     }
@@ -141,11 +142,30 @@ public class AddressBook {
         }
     }
 
+    void searchByCityState(Scanner s) {
+        logger.info("Enter City/State of Contacts to search : ");
+        String search = s.nextLine();
+        Stream<Contact> exists = arrli.stream()
+                .filter(arrliItem -> arrliItem.getCity().contains(search));
+        if (!exists.equals(null)) {
+            exists.forEach(System.out::println);
+        }
+    }
+
+    void countByCityState(Scanner s) {
+        logger.info("Enter City/State of Contacts to search : ");
+        String search = s.nextLine();
+        long count = arrli.stream()
+                .filter(arrliItem -> arrliItem.getCity().contains(search))
+                .count();
+        System.out.println("Count for search by " + search + " is " + count);
+    }
+
     void accessAddressBook(AddressBook a, Scanner s) {
         while (true) {
             logger.info("Welcome to Address Book Program");
             logger.info(
-                    "Give choice 1. Create a contact: 2: Display Contacts 3: Edit a Contact 4: Delete a contact 5: Add Multiple contacts 6: Go back");
+                    "Give choice 1. Create a contact: 2: Display Contacts 3: Edit a Contact 4: Delete a contact 5: Add Multiple contacts 6: Search by city/state 7: Go back");
             String str = s.nextLine(); // get the number as a single line
 
             int choice = Integer.parseInt(str);
@@ -165,7 +185,12 @@ public class AddressBook {
                     break;
                 case 5:
                     a.addMultipleContacts(s);
+                    break;
                 case 6:
+                    a.searchByCityState(s);
+                    break;
+                case 7:
+                    a.countByCityState(s);
                     return;
             }
         }
