@@ -1,7 +1,9 @@
 package com.addressbook;
 
 import java.util.ArrayList;
+import java.util.Comparator;
 import java.util.Scanner;
+import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
 import org.apache.logging.log4j.LogManager;
@@ -161,6 +163,15 @@ public class AddressBook {
         System.out.println("Count for search by " + search + " is " + count);
     }
 
+    void sortByName() {
+        System.out.println("printing the sorted address book by name");
+        arrli.stream()
+                .sorted(Comparator.comparing(Contact::getFirstName))
+                .collect(Collectors.toList())
+                .forEach(System.out::println);
+        // arrli.forEach(System.out::println);
+    }
+
     void accessAddressBook(AddressBook a, Scanner s) {
         while (true) {
             logger.info("Welcome to Address Book Program");
@@ -191,6 +202,9 @@ public class AddressBook {
                     break;
                 case 7:
                     a.countByCityState(s);
+                    break;
+                case 8:
+                    a.sortByName();
                     return;
             }
         }
