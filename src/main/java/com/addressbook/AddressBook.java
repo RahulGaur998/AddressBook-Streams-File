@@ -9,11 +9,22 @@ import java.util.stream.Stream;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
+/**
+ * The AddressBook class shas multiple methods to store, read, search, etc
+ * contacts in ArrayList of type contact
+ * 
+ */
+
 public class AddressBook {
     private static final Logger logger = LogManager.getLogger(App.class);
 
     ArrayList<Contact> arrli = new ArrayList<Contact>();
 
+    /**
+     * This method adds contact to the list of contacts
+     * 
+     * @param Scanner s pass scanner object
+     */
     void addContact(Scanner s) {
 
         logger.info("Enter first name :");
@@ -44,6 +55,14 @@ public class AddressBook {
     void displayContact() {
         logger.info(arrli);
     }
+
+    /**
+     * This method edits contact from the list of contacts/addressbook matching to
+     * first name
+     * 
+     * @param Scanner s pass scanner object
+     * 
+     */
 
     void editContact(Scanner s) {
         logger.info("Enter first name of Contact to search : ");
@@ -119,6 +138,12 @@ public class AddressBook {
 
     }
 
+    /**
+     * This method deletes/ removes contact from the list of contacts
+     * 
+     * @param Scanner s pass scanner object
+     */
+
     void deleteContact(Scanner s) {
         logger.info("Enter first name of Contact to delete : ");
         String search = s.nextLine();
@@ -144,6 +169,12 @@ public class AddressBook {
         }
     }
 
+    /**
+     * This method searches contact from the list of contacts matching with city
+     * 
+     * @param Scanner s pass scanner object
+     * 
+     */
     void searchByCityState(Scanner s) {
         logger.info("Enter City/State of Contacts to search : ");
         String search = s.nextLine();
@@ -154,6 +185,12 @@ public class AddressBook {
         }
     }
 
+    /**
+     * This method counts contact from the list of contacts matching with city
+     * 
+     * @param Scanner s pass scanner object
+     * 
+     */
     void countByCityState(Scanner s) {
         logger.info("Enter City/State of Contacts to search : ");
         String search = s.nextLine();
@@ -163,6 +200,12 @@ public class AddressBook {
         System.out.println("Count for search by " + search + " is " + count);
     }
 
+    /**
+     * This method sorts contact from the list of contacts with names
+     * 
+     * @param Scanner s pass scanner object
+     * 
+     */
     void sortByName() {
         System.out.println("printing the sorted address book by name");
         arrli.stream()
@@ -172,6 +215,12 @@ public class AddressBook {
         // arrli.forEach(System.out::println);
     }
 
+    /**
+     * This method sorts contact from the list of contacts with cities
+     * 
+     * @param Scanner s pass scanner object
+     * 
+     */
     void sortByCity() {
         System.out.println("printing the sorted address book by city");
         arrli.stream()
@@ -181,7 +230,14 @@ public class AddressBook {
         // arrli.forEach(System.out::println);
     }
 
-    void accessAddressBook(AddressBook a, Scanner s) {
+    /**
+     * Access particular addressbook
+     *
+     * @param addressbook it contains all the individual contacts
+     * 
+     */
+
+    void accessAddressBook(AddressBook addressBook, Scanner s) {
         while (true) {
             logger.info("Welcome to Address Book Program");
             logger.info(
@@ -192,31 +248,31 @@ public class AddressBook {
 
             switch (choice) {
                 case 1:
-                    a.addContact(s);
+                    addressBook.addContact(s);
                     break;
                 case 2:
-                    a.displayContact();
+                    addressBook.displayContact();
                     break;
                 case 3:
-                    a.editContact(s);
+                    addressBook.editContact(s);
                     break;
                 case 4:
-                    a.deleteContact(s);
+                    addressBook.deleteContact(s);
                     break;
                 case 5:
-                    a.addMultipleContacts(s);
+                    addressBook.addMultipleContacts(s);
                     break;
                 case 6:
-                    a.searchByCityState(s);
+                    addressBook.searchByCityState(s);
                     break;
                 case 7:
-                    a.countByCityState(s);
+                    addressBook.countByCityState(s);
                     break;
                 case 8:
-                    a.sortByName();
+                    addressBook.sortByName();
                     break;
                 case 9:
-                    a.sortByCity();
+                    addressBook.sortByCity();
                     break;
                 case 10:
                     return;

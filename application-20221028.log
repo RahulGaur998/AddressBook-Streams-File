@@ -1,0 +1,106 @@
+2022-10-28 09:37:07.458 [main] INFO  com.addressbook.App - Welcome to AddressBookSystem: Choose an option 1: Open an Address Book 2: Create an Address Book 3: Delete an AddressBook 
+2022-10-28 12:33:37.112 [main] INFO  com.addressbook.App - Welcome to AddressBookSystem: Choose an option 1: Open an Address Book 2: Create an Address Book 3: Delete an AddressBook 
+2022-10-28 12:33:39.463 [main] INFO  com.addressbook.App - Give name for the addressbook to open :
+2022-10-28 12:33:41.688 [main] INFO  com.addressbook.App - opening Address Book : Rahul
+2022-10-28 12:33:58.048 [main] INFO  com.addressbook.App - Welcome to AddressBookSystem: Choose an option 1: Open an Address Book 2: Create an Address Book 3: Delete an AddressBook 
+2022-10-28 12:34:00.952 [main] INFO  com.addressbook.App - Give name for the addressbook to open :
+2022-10-28 12:34:03.338 [main] INFO  com.addressbook.App - opening Address Book : Rahul
+2022-10-28 13:01:02.663 [main] INFO  com.addressbook.App - Welcome to AddressBookSystem: Choose an option 1: Open an Address Book 2: Create an Address Book 3: Delete an AddressBook 
+2022-10-28 13:01:05.174 [main] INFO  com.addressbook.App - Give name for the addressbook to open :
+2022-10-28 13:01:07.884 [main] INFO  com.addressbook.App - opening Address Book : Rahul
+2022-10-28 13:18:56.265 [main] INFO  com.addressbook.App - Welcome to AddressBookSystem: Choose an option 1: Open an Address Book 2: Create an Address Book 3: Delete an AddressBook 
+2022-10-28 13:18:59.802 [main] INFO  com.addressbook.App - Give name for the addressbook to create :
+2022-10-28 13:19:01.849 [main] INFO  com.addressbook.App - Welcome to Address Book Program
+2022-10-28 13:19:01.850 [main] INFO  com.addressbook.App - Give choice 1. Create a contact: 2: Display Contacts 3: Edit a Contact 4: Delete a contact 5: Add Multiple contacts 6: Search by city/state 7: Count of searched element 8: Sort By Name 9: Sort By City/State 10: Go back
+2022-10-28 13:19:03.816 [main] INFO  com.addressbook.App - Enter first name :
+2022-10-28 13:19:05.767 [main] INFO  com.addressbook.App - Enter last name :
+2022-10-28 13:19:06.749 [main] INFO  com.addressbook.App - Enter address :
+2022-10-28 13:19:08.615 [main] INFO  com.addressbook.App - Enter city :
+2022-10-28 13:19:10.633 [main] INFO  com.addressbook.App - Enter state :
+2022-10-28 13:19:12.205 [main] INFO  com.addressbook.App - Enter zip code :
+2022-10-28 13:19:14.118 [main] INFO  com.addressbook.App - Enter phone number :
+2022-10-28 13:19:18.523 [main] INFO  com.addressbook.App - Enter   email Id :
+2022-10-28 13:19:22.624 [main] INFO  com.addressbook.App - Welcome to Address Book Program
+2022-10-28 13:19:22.625 [main] INFO  com.addressbook.App - Give choice 1. Create a contact: 2: Display Contacts 3: Edit a Contact 4: Delete a contact 5: Add Multiple contacts 6: Search by city/state 7: Count of searched element 8: Sort By Name 9: Sort By City/State 10: Go back
+2022-10-28 13:19:25.404 [main] INFO  com.addressbook.App - Enter first name :
+2022-10-28 13:19:29.144 [main] INFO  com.addressbook.App - Enter last name :
+2022-10-28 13:19:30.328 [main] INFO  com.addressbook.App - Enter address :
+2022-10-28 13:19:32.184 [main] INFO  com.addressbook.App - Enter city :
+2022-10-28 13:19:32.840 [main] INFO  com.addressbook.App - Enter state :
+2022-10-28 13:19:33.265 [main] INFO  com.addressbook.App - Enter zip code :
+2022-10-28 13:19:33.574 [main] INFO  com.addressbook.App - Enter phone number :
+2022-10-28 13:19:33.890 [main] INFO  com.addressbook.App - Enter   email Id :
+2022-10-28 13:19:36.110 [main] INFO  com.addressbook.App - Welcome to Address Book Program
+2022-10-28 13:19:36.111 [main] INFO  com.addressbook.App - Give choice 1. Create a contact: 2: Display Contacts 3: Edit a Contact 4: Delete a contact 5: Add Multiple contacts 6: Search by city/state 7: Count of searched element 8: Sort By Name 9: Sort By City/State 10: Go back
+2022-10-28 13:19:38.026 [main] INFO  com.addressbook.App - [Contact [address=Khandala, city=Pune, emailId=gau@mail.com, firstName=Rahul, lastName=Gaur, phoneNumber=0987654321, state=Maha, zip=410301], Contact [address=Maha, city=asda, emailId=dasd@fsadf, firstName=Mukta, lastName=Gaur, phoneNumber=asd, state=asd, zip=asd]]
+2022-10-28 13:19:38.030 [main] INFO  com.addressbook.App - Welcome to Address Book Program
+2022-10-28 13:19:38.031 [main] INFO  com.addressbook.App - Give choice 1. Create a contact: 2: Display Contacts 3: Edit a Contact 4: Delete a contact 5: Add Multiple contacts 6: Search by city/state 7: Count of searched element 8: Sort By Name 9: Sort By City/State 10: Go back
+2022-10-28 13:20:22.241 [main] INFO  com.addressbook.App - Welcome to AddressBookSystem: Choose an option 1: Open an Address Book 2: Create an Address Book 3: Delete an AddressBook 
+2022-10-28 13:20:25.208 [main] INFO  com.addressbook.App - Give name for the addressbook to open :
+2022-10-28 13:20:28.608 [main] INFO  com.addressbook.App - opening Address Book : Rahul
+2022-10-28 13:20:28.611 [main] INFO  com.addressbook.FileIOService - reading from file Rahul
+2022-10-28 13:20:28.620 [main] INFO  com.addressbook.App - Welcome to AddressBookSystem: Choose an option 1: Open an Address Book 2: Create an Address Book 3: Delete an AddressBook 
+2022-10-28 15:39:53.590 [main] INFO  com.addressbook.App - Welcome to AddressBookSystem: Choose an option 1: Open an Address Book 2: Create an Address Book 3: Delete an AddressBook 
+2022-10-28 15:39:57.010 [main] INFO  com.addressbook.App - Give name for the addressbook to create :
+2022-10-28 15:39:59.287 [main] INFO  com.addressbook.App - Welcome to Address Book Program
+2022-10-28 15:39:59.287 [main] INFO  com.addressbook.App - Give choice 1. Create a contact: 2: Display Contacts 3: Edit a Contact 4: Delete a contact 5: Add Multiple contacts 6: Search by city/state 7: Count of searched element 8: Sort By Name 9: Sort By City/State 10: Go back
+2022-10-28 15:40:00.923 [main] INFO  com.addressbook.App - Enter first name :
+2022-10-28 15:40:02.313 [main] INFO  com.addressbook.App - Enter last name :
+2022-10-28 15:40:03.378 [main] INFO  com.addressbook.App - Enter address :
+2022-10-28 15:40:05.777 [main] INFO  com.addressbook.App - Enter city :
+2022-10-28 15:40:06.191 [main] INFO  com.addressbook.App - Enter state :
+2022-10-28 15:40:06.525 [main] INFO  com.addressbook.App - Enter zip code :
+2022-10-28 15:40:06.810 [main] INFO  com.addressbook.App - Enter phone number :
+2022-10-28 15:40:07.351 [main] INFO  com.addressbook.App - Enter   email Id :
+2022-10-28 15:40:08.199 [main] INFO  com.addressbook.App - Welcome to Address Book Program
+2022-10-28 15:40:08.200 [main] INFO  com.addressbook.App - Give choice 1. Create a contact: 2: Display Contacts 3: Edit a Contact 4: Delete a contact 5: Add Multiple contacts 6: Search by city/state 7: Count of searched element 8: Sort By Name 9: Sort By City/State 10: Go back
+2022-10-28 15:40:12.381 [main] INFO  com.addressbook.App - Welcome to AddressBookSystem: Choose an option 1: Open an Address Book 2: Create an Address Book 3: Delete an AddressBook 
+2022-10-28 15:40:14.340 [main] INFO  com.addressbook.App - Give name for the addressbook to open :
+2022-10-28 15:40:16.827 [main] INFO  com.addressbook.App - opening Address Book : Rahul
+2022-10-28 15:43:59.328 [main] INFO  com.addressbook.App - Welcome to AddressBookSystem: Choose an option 1: Open an Address Book 2: Create an Address Book 3: Delete an AddressBook 
+2022-10-28 15:44:02.174 [main] INFO  com.addressbook.App - Give name for the addressbook to open :
+2022-10-28 15:44:03.896 [main] INFO  com.addressbook.App - opening Address Book : Rahul
+2022-10-28 15:52:38.553 [main] INFO  com.addressbook.App - Welcome to AddressBookSystem: Choose an option 1: Open an Address Book 2: Create an Address Book 3: Delete an AddressBook 
+2022-10-28 15:52:52.231 [main] INFO  com.addressbook.App - Give name for the addressbook to create :
+2022-10-28 15:52:54.229 [main] INFO  com.addressbook.App - Welcome to Address Book Program
+2022-10-28 15:52:54.230 [main] INFO  com.addressbook.App - Give choice 1. Create a contact: 2: Display Contacts 3: Edit a Contact 4: Delete a contact 5: Add Multiple contacts 6: Search by city/state 7: Count of searched element 8: Sort By Name 9: Sort By City/State 10: Go back
+2022-10-28 15:53:05.250 [main] INFO  com.addressbook.App - Welcome to AddressBookSystem: Choose an option 1: Open an Address Book 2: Create an Address Book 3: Delete an AddressBook 
+2022-10-28 15:53:08.612 [main] INFO  com.addressbook.App - Give name for the addressbook to create :
+2022-10-28 15:53:10.022 [main] INFO  com.addressbook.App - Welcome to Address Book Program
+2022-10-28 15:53:10.023 [main] INFO  com.addressbook.App - Give choice 1. Create a contact: 2: Display Contacts 3: Edit a Contact 4: Delete a contact 5: Add Multiple contacts 6: Search by city/state 7: Count of searched element 8: Sort By Name 9: Sort By City/State 10: Go back
+2022-10-28 15:53:10.621 [main] INFO  com.addressbook.App - Enter first name :
+2022-10-28 15:53:12.603 [main] INFO  com.addressbook.App - Enter last name :
+2022-10-28 15:53:13.387 [main] INFO  com.addressbook.App - Enter address :
+2022-10-28 15:53:17.211 [main] INFO  com.addressbook.App - Enter city :
+2022-10-28 15:53:18.094 [main] INFO  com.addressbook.App - Enter state :
+2022-10-28 15:53:18.538 [main] INFO  com.addressbook.App - Enter zip code :
+2022-10-28 15:53:18.854 [main] INFO  com.addressbook.App - Enter phone number :
+2022-10-28 15:53:19.162 [main] INFO  com.addressbook.App - Enter   email Id :
+2022-10-28 15:53:19.489 [main] INFO  com.addressbook.App - Welcome to Address Book Program
+2022-10-28 15:53:19.490 [main] INFO  com.addressbook.App - Give choice 1. Create a contact: 2: Display Contacts 3: Edit a Contact 4: Delete a contact 5: Add Multiple contacts 6: Search by city/state 7: Count of searched element 8: Sort By Name 9: Sort By City/State 10: Go back
+2022-10-28 15:53:22.026 [main] INFO  com.addressbook.App - Welcome to AddressBookSystem: Choose an option 1: Open an Address Book 2: Create an Address Book 3: Delete an AddressBook 
+2022-10-28 15:53:23.656 [main] INFO  com.addressbook.App - Give name for the addressbook to open :
+2022-10-28 15:53:25.307 [main] INFO  com.addressbook.App - opening Address Book : Rahul
+2022-10-28 15:56:16.724 [main] INFO  com.addressbook.App - Welcome to AddressBookSystem: Choose an option 1: Open an Address Book 2: Create an Address Book 3: Delete an AddressBook 
+2022-10-28 15:56:19.744 [main] INFO  com.addressbook.App - Give name for the addressbook to create :
+2022-10-28 15:56:21.816 [main] INFO  com.addressbook.App - Welcome to Address Book Program
+2022-10-28 15:56:21.817 [main] INFO  com.addressbook.App - Give choice 1. Create a contact: 2: Display Contacts 3: Edit a Contact 4: Delete a contact 5: Add Multiple contacts 6: Search by city/state 7: Count of searched element 8: Sort By Name 9: Sort By City/State 10: Go back
+2022-10-28 15:56:24.214 [main] INFO  com.addressbook.App - Enter first name :
+2022-10-28 15:56:25.682 [main] INFO  com.addressbook.App - Enter last name :
+2022-10-28 15:56:26.413 [main] INFO  com.addressbook.App - Enter address :
+2022-10-28 15:56:26.741 [main] INFO  com.addressbook.App - Enter city :
+2022-10-28 15:56:26.997 [main] INFO  com.addressbook.App - Enter state :
+2022-10-28 15:56:27.236 [main] INFO  com.addressbook.App - Enter zip code :
+2022-10-28 15:56:27.389 [main] INFO  com.addressbook.App - Enter phone number :
+2022-10-28 15:56:27.618 [main] INFO  com.addressbook.App - Enter   email Id :
+2022-10-28 15:56:27.801 [main] INFO  com.addressbook.App - Welcome to Address Book Program
+2022-10-28 15:56:27.802 [main] INFO  com.addressbook.App - Give choice 1. Create a contact: 2: Display Contacts 3: Edit a Contact 4: Delete a contact 5: Add Multiple contacts 6: Search by city/state 7: Count of searched element 8: Sort By Name 9: Sort By City/State 10: Go back
+2022-10-28 15:56:30.324 [main] INFO  com.addressbook.App - Welcome to AddressBookSystem: Choose an option 1: Open an Address Book 2: Create an Address Book 3: Delete an AddressBook 
+2022-10-28 15:56:31.981 [main] INFO  com.addressbook.App - Give name for the addressbook to open :
+2022-10-28 15:56:33.379 [main] INFO  com.addressbook.App - opening Address Book : Mukta
+2022-10-28 16:01:52.064 [main] INFO  com.addressbook.App - Welcome to AddressBookSystem: Choose an option 1: Open an Address Book 2: Create an Address Book 3: Delete an AddressBook 
+2022-10-28 16:01:54.877 [main] INFO  com.addressbook.App - Give name for the addressbook to open :
+2022-10-28 16:01:57.326 [main] INFO  com.addressbook.App - opening Address Book : Mukta
+2022-10-28 16:05:25.402 [main] INFO  com.addressbook.App - Welcome to AddressBookSystem: Choose an option 1: Open an Address Book 2: Create an Address Book 3: Delete an AddressBook 
+2022-10-28 16:05:28.127 [main] INFO  com.addressbook.App - Give name for the addressbook to open :
+2022-10-28 16:05:34.262 [main] INFO  com.addressbook.App - opening Address Book : Mukta
